@@ -28,6 +28,8 @@ git clone https://github.com/geocolumbus/typescript-notes.git \
 npm run dev
 ```
 
+Navigate to ```http://localhost:3000```
+
 ### Running tests
 
 ```bash
