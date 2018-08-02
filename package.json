@@ -1,7 +1,8 @@
 {
-  "name": "@risingstack/rest-api-typescript",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@geocolumbus/typescript-notes",
+  "version": "0.0.1",
+  "description": "Typescript notes in code form.",
+  "repository": "https://github.com/geocolumbus/typescript-notes",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -11,8 +12,8 @@
     "tsc": "tsc"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "geocolumbus@gmail.com",
+  "license": "MIT",
   "dependencies": {
     "@types/node": "^10.1.0",
     "express": "^4.16.3",
@@ -21,7 +22,7 @@
   "devDependencies": {
     "@types/mocha": "^5.2.0",
     "@types/node": "^10.1.0",
-    "eslint": "^5.2.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-promise": "3.8.0",

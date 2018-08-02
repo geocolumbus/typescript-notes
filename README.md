@@ -44,8 +44,16 @@ npm run lint
 
 ## Production
 
-### Building a docker container
+### Building a docker container for production
 
-```bash
-docker build .
 ```
+docker build --tag typescript-notes .
+docker run typescript-notes
+```
+
+See https://hub.docker.com/r/geocolumbus/typescript-notes/
+
+## Reference
+
+* [TypeScript Tutorial](https://www.tutorialspoint.com/typescript/index.htm)
+* [TypeScript Documentation]()
