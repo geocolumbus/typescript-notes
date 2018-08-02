@@ -1,6 +1,28 @@
-## Skeleton for Node.js applications written in TypeScript
+# George's typescript notes
 
-### Development
+## Requirements
+
+I run on MacBook Pros with these installed:
+
+```
+node v10.1.0
+docker 18 or greater
+```
+
+
+## Install
+
+Paste this in your console.
+
+```
+git clone https://github.com/geocolumbus/typescript-notes.git \
+&& cd typescript-notes \
+&& npm install
+```
+
+## Development Environment
+
+### Run
 
 ```bash
 npm run dev
@@ -18,7 +40,9 @@ npm test
 npm run lint
 ```
 
-### Building a container
+## Production
+
+### Building a docker container
 
 ```bash
 docker build .
